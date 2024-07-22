@@ -1206,6 +1206,15 @@ a:focus {
     .team .team-text h4 {
         margin-bottom: 5px;
     }
+        
+    .team .team-img,
+    .team .team-text {
+        width: 200%; /* Full width on mobile */
+    }
+    
+    .team .team-img {
+        height: 200px; /* Adjust height for mobile if needed */
+    }
 
     .team .team-text p {
         font-size: 14px;
