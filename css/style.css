@@ -1192,7 +1192,6 @@ a:focus {
 .team .team-item:hover .team-social a.btn:hover {
     border-color: #ffffff;
 }
-
 @media(max-width: 575.98px) {
     .team .team-text {
         padding: 0 15px;
@@ -1200,7 +1199,7 @@ a:focus {
     
     .team .team-text h2 {
         font-size: 16px;
-        margin-bottom: 0;
+        margin-bottom: 100;
     }
 
     .team .team-text h4 {
@@ -1209,7 +1208,7 @@ a:focus {
         
     .team .team-img,
     .team .team-text {
-        width: 200%; /* Full width on mobile */
+        width: 180%; /* Full width on mobile */
     }
     
     .team .team-img {
@@ -1220,11 +1219,11 @@ a:focus {
         font-size: 14px;
         line-height: 18px;
         margin-bottom: 10px;
+        margin-top: 10px;
     }
     
     
 }
-
 
 /*******************************/
 /******* Testimonial CSS *******/
