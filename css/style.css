@@ -178,7 +178,7 @@ a:focus {
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: #272525 !important;
+        background: linear-gradient(to top, #004f98,#153a5a)  !important;
     }
     
     .navbar .navbar-brand {
@@ -213,10 +213,20 @@ a:focus {
     }
 }
 
-@media (max-width: 991.98px) {   
+
+@media (max-width: 991.98px) {  
     .navbar {
+        position:absolute;
+        width: 100%;
+        padding: -10px 10px;
+        background: transparent !important;
+        border-bottom: 1px dashed rgba(256, 256, 256, .2);
+        z-index: 10;
+    }
+     
+    .navbar.nav-sticky {
         padding: 15px;
-        background: linear-gradient(to right, #292626,#023769) !important;
+        background: linear-gradient(to top, #004f98,#153a5a)  !important;
 
     }
     
@@ -225,7 +235,7 @@ a:focus {
     }
     
     .navbar .navbar-nav {
-        margin-top: 15px;
+        margin-top: 35px;
     }
     
     .navbar a.nav-link {
@@ -1481,7 +1491,7 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 45px;
-    background: #004f98;
+    background: linear-gradient(to top, #004f98,#153a5a)  !important;
 }
 
 .footer .container-fluid {
