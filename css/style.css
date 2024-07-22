@@ -1213,7 +1213,7 @@ a:focus {
     }
     
     .team .team-img {
-        height: 200px; /* Adjust height for mobile if needed */
+        height: 150px; /* Adjust height for mobile if needed */
     }
 
     .team .team-text p {
