@@ -178,7 +178,7 @@ a:focus {
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: linear-gradient(to top, #004f98,#153a5a)  !important;
+        background: linear-gradient( #06060cf2, #1a2d63f2) !important;
     }
     
     .navbar .navbar-brand {
@@ -1491,7 +1491,7 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 45px;
-    background: linear-gradient(to top, #004f98,#153a5a)  !important;
+    background: linear-gradient( #06060cf2, #1a2d63f2) !important;
 }
 
 .footer .container-fluid {
