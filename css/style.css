@@ -155,8 +155,8 @@ a:focus {
 }
 
 .navbar .navbar-brand img {
-    max-width: 350%;
-    max-height: 65px;
+    max-width: 500%;
+    max-height: 90px;
 }
 
 .navbar .dropdown-menu {
@@ -204,12 +204,12 @@ a:focus {
 
     .navbar-light .navbar-nav .nav-link:hover,
     .navbar-light .navbar-nav .nav-link.active {
-        color: #3c4597;
+        color: #9c1919;
     }
     
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
-        color: #004f98;
+        color: #9c1919;
     }
 }
 
